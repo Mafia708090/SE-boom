@@ -27,7 +27,7 @@ except:
     print("if You Can't Install  Requerments Then Tool Not Run.")
     print("Install Requerments") 
   exit()
-user = 'mafia'#
+user = 'ml'#
 passwd = '708090'#
 
 def word (z):
