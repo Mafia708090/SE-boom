@@ -27,7 +27,7 @@ except:
     print("if You Can't Install  Requerments Then Tool Not Run.")
     print("Install Requerments") 
   exit()
-user = 'ml'#
+user = 'mafia'#
 passwd = '708090'#
 
 def word (z):
@@ -51,11 +51,11 @@ word(x5)
 word(x3)
 while True:
   us = input(colored("USERNAME: ", 'green'))
-  if us == 'mao':
+  if us == 'mafia':
   
     while True:
       psw = input(colored("PASSWORD: ", 'green'))
-      if psw == '2116':
+      if psw == '708090':
         
         while True:
           x = colored("[1.] Bangladesh :880", 'green')
